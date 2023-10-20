@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "gilroy";
+    box-sizing: border-box;
+}
+
+html,body{
+
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+
+}
+#back{
+    width: 100%;
+    height: 100vh;
+}
+#back img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+#top{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+#workingarea{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1920px;
+    height: 100vh;
+}
+#nav{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nleft img{
+    height: 60px;
+}
+ 
+#nleft , #nright{
+    display: flex;
+    align-items: center ;
+    gap: 60px;
+}
+
+
+#nav a{
+pointer-events: all;    
+color: #fff;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 13px;
+font-weight: 700;
+letter-spacing: 1.5px;
+}
+
+#hero{
+    position: absolute;
+    top: 60%;
+    left: 0;
+    transform: translate(0%, -50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   
+
+}
+#hleft{
+    min-width:50% 
+
+}
+
+#hleft .elem{
+    height: 8vw;
+    overflow: hidden;
+    position: relative;
+
+}
+#hleft .elem h1:nth-child(1)
+{
+    top: 0;
+    
+}
+
+#hleft .elem h1{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    line-height: .9;
+    font-family: "kajiro";
+    color: #fff;
+    font-weight: 100;
+    font-size: 9vw;
+}
+
+#hleft button{
+    pointer-events: all;
+    padding: .8vw 3vw ;
+    font-size: 3vw;
+    font-family: "kajiro";
+    margin-top: 2vw;
+
+
+}
+#hright{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width:28%;
+    color: #fff;
+}
+
+#hright p{
+    text-align: right;
+    font-size: 14px;
+    font-weight: 300;
+    text-overflow: hidden;
+}
+
+#hright #imagediv{
+    width: 80%;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-image:url(https://plus.unsplash.com/premium_photo-1697183203418-0a703d8f0187?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+#hright p:nth-child(3){
+    margin-bottom: 80px;
+
+
+}
+
