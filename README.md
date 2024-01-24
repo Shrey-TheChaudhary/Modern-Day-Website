@@ -1,7 +1,7 @@
 ## Modern_Day-WebPage
 Portfolio website build using HTML5, CSS3, JavaScript and GSAP.
 
-<a href="[https://shrey-thechaudhary.github.io/Modern-Day-Website/]" target="_blank">**Have A Look Into It** 🚀</a>
+<a href="https://shrey-thechaudhary.github.io/Modern-Day-Website/" target="_blank">**Have A Look Into It** 🚀</a>
 
 
 ## 📌 Tech Stack
